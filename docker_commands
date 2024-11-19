@@ -1,0 +1,5 @@
+docker build -f HMS_dockerfile -t hms
+
+docker push hms
+
+docker run -it hms
